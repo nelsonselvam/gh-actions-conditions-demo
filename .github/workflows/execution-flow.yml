@@ -83,4 +83,4 @@ jobs:
       - name: Generate report
         run: |
           echo "Something went wrong"
-          echo "{{ github }}"
+          echo "${{ github }}"
